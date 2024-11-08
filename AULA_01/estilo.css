@@ -10,21 +10,60 @@ header{
     border-radius: 5;
 }
 nav{
+   
     background-color: black;
-    padding: 15px;
+    padding: 30px;
+    margin: 50px;
 }
 nav ul{
     align-items: center;
 }
 nav ul li a{
     color: azure;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 25;
     text-decoration:none;
 }
 nav ul li a:hover{
     color: chartreuse;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 25;
     text-decoration:none;
+}
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+
+
+
+}
+.artigo{
+margin-left: 500px;
+margin-right: 500px;
+margin-top: 280px;
+
+}
+.video{
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    }
+.video iframe{
+    width:920px;
+    height:500px;
+}
+.logo picture img{
+    width:920px;
+    height:920px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.logo {
+    align-items: center;
+}
+.footer {
+    margin-left: 500px;
+    height:50px;
+
 }

@@ -9,19 +9,35 @@
     <header>
         <!-- Topo da nossa página -->
         <h1>Portifólio Guilherme Barbosa</h1>
-        <br>
         <section>
             <div>
                 <picture>
-                     <img src="images/guilherme.jpg" alt="Logo" width="250" height="330">
+                    <source srcset="images/logo.jpg" type="image/jpg">
+                    <img src="images/logo.jpg" alt="Logo" width="250" height="250">
                 </picture>
             </div>
         </section>
-    </header> 
+    </header>
+
+    <nav>
+        <!-- Onde montamos o nosso menu -->
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <picture>
+                <source srcset="images/logo.jpg" type="image/jpg">
+                <img src="images/logo.jpg" alt="Logo" width="250" height="250">
+            </picture>
+        </div>
+    </section>
     <section><!--é uma tag de agrupamento de conteúdo-->
-        <div class="artigo">
         <article><!--escrever um artigo-->
-            <br> <br><br><h2>Bem- Vindo ao meu Portifólio</h2><br>
+            <br> <h2>Bem- Vindo ao meu Portifólio</h2><br>
             <p>Ao longo de 9 anos, adquiri experiência prática como Empreendedor, Coordenador de Ecommerce e Assistente de Marketing. Com um sólido conhecimento em gestão de sistemas ERP, participei diretamente de implantações, configurações e integrações de Lojas Virtuais e Marketplaces (como Mercado Livre, Shopee, Amazon entre outros). Através de chamados, colaborei com o desenvolvimento e melhorias de algumas plataformas Hub, realizando testes de usabilidade, identificando eventuais bugs, sugerindo idéias de melhorias e experiência. Minha expertise inclui também a resolução de problemas sistêmicos, logísticos e pós vendas, onde trabalhei para otimizar processos e garantir resultados eficientes.</p>
 
             <p> Minha paixão pela tecnologia começou na infância e, ao longo da minha trajetória profissional, identifiquei que, no mercado atual, é necessário buscar novos desafios que permitam expandir meus conhecimentos e aprimorar-me como profissional. Esse desejo me impulsiona a explorar novas áreas e tecnologias, sempre em busca de soluções inovadoras.</p>
@@ -29,27 +45,33 @@
             <p>   Atualmente cursando Análise e Desenvolvimento de Sistemas, com previsão de formatura em agosto de 2026. Estou me aprofundando no aprendizado de tecnologias e linguagens de programação como JavaScript, Java, Python, Kotlin, C++, Flutter, React, Angular, Bootstrap, SQL, MySQL, Github com o objetivo de me tornar um Desenvolvedor Full Stack.</p>
                 
             <p> Estou comprometido com o desenvolvimento e implantação de soluções tecnológicas que agreguem valor, resolvam problemas e otimizem operações em diversas áreas..</p><br>
-        </article></div>
+        </article>
     </section>
-    
     <section>
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/cSNPZjmsN8o?si=8waOIudIgHvdUuwF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cSNPZjmsN8o?si=8waOIudIgHvdUuwF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <audio controls> 
+            <source src="audio\audio.mp3" type="audio/mp3">
+            </audio>
         </div>
     </section>
-    <br>
     <section>
-        <div class="logo">
-            <picture>
-                <img src="images/logo.jpg" alt="Logo">
-            </picture>
-        </div>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age"><br><br>
+            <button type="subimit">Enviar</button>
+        </form>
     </section>
-    
 
-    <footer class="footer">
+    <footer>
         <!-- É rodapé da nossa página -->
-        <h1>Obrigado por visitar meu portifólio!</h1>
+        <h1>Rodape</h1>
     </footer>
 </body>
 </html>
