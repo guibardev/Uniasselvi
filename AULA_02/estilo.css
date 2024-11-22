@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
-* {
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
+* 
+{
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
 font-size: 1.2rem;
 color:rgb(43, 255, 23);
 margin: 10;
@@ -13,15 +15,55 @@ padding: 10px;
     height: 3rem;
     border: none;
     margin: 0.3rem;
-    border-radius: 20rem;
+    border-radius: 50rem;
     background-color: rgb(0, 0, 0);
     box-shadow: 0 4px rgb(86, 87, 87);
     text-align: center;
 }
 .calculatorButtons:active{
-    transform: translateY(1.2vh);
-    box-shadow: 0 2px rgb(86, 87, 87);
+    transform: translateY(0.7vh);
+    box-shadow: 0px 2px 1px rgb(87, 86, 86);
     background-color: rgb(43, 255, 23);
     color:rgb(0, 0, 0);
-
 }
+#display{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px rgb(86, 87, 87);
+    padding: 13px;
+    border-radius: 50rem;
+    text-align: right;
+    height: 5vh;
+    margin: 0.5rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, #000000, #5a5a5a, #202020);
+    background-size: cover;
+}
+.container{
+    background-image: linear-gradient(to left, #000000, #5a5a5a,#202020);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}.calculator{
+    background-image: linear-gradient(to left, #000000, #5a5a5a,#202020);
+    padding: 3vh 3vh 3vh 3vh;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 rgb(0, 0, 0);
+    height: 70vh;
+}
+#cleanDispla, #deleteDigit. #division, #mutiplication, #subtraction, #sum, #result{
+    background-color:linear-gradient(to left, #000000, #5a5a5a,#202020);
+    color: #202020
+}
+#result{
+    height: 6.8rem;
+}
+#num0{
+    width: 8.7rem;
+}
+
+
