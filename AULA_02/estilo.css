@@ -34,12 +34,14 @@ padding: 10px;
     text-align: right;
     height: 5vh;
     margin: 0.5rem;
+    height: auto;
 }
 body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to left, #000000, #5a5a5a, #202020);
     background-size: cover;
+   
     
 }
 .container{
