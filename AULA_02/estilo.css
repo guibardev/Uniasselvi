@@ -27,9 +27,13 @@ padding: 10px;
     color:rgb(0, 0, 0);
 }
 #display{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 1.2rem;
     background-color: rgb(0, 0, 0);
     box-shadow: 0 2px rgb(70, 69, 69);
-    padding: 15px;
+    padding: 20px;
     border-radius: 10rem;
     text-align: right;
     height: 5vh;
